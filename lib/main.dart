@@ -14,6 +14,15 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'The Flutter Way',
+      theme: ThemeData(
+          visualDensity: VisualDensity.compact,
+          useMaterial3: true, // use material 3
+          colorScheme: const ColorScheme.dark( // dark colorscheme
+            primary: Colors.white24,
+            onBackground: Colors.white10,
+            onSurface: Colors.white10,
+          ),
+      ),
       home: Main()
     );
   }

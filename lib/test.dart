@@ -36,14 +36,14 @@ class _MainState extends State<Main> {
                 color: Colors.grey,
                 child: Center(
                     child: Text(
-                        '워치 테스트 $index',
+                      '워치 테스트 $index',
                       style: TextStyle(color: Colors.white),
                     )
                 ),
               ),
             );
           },
-          itemCount: 15,
+          itemCount: 10,
         ),
       ),
     );
